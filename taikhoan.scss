@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.form{
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    
+}
+.form>.logo>img{
+width: 150px;
+height: 150px;
+float: left;
+}
+.form>.logo>p{
+    margin-top: 50px;
+    margin-right: 215px;
+    float: right;
+    font-size: 25px;
+    font-family: sans-serif;
+    }
+    .form>input{
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 150px;
+    }
+    .form>.dangnhap>a>button{
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 250px;
+        background-color: darksalmon;
+    }
+    .form>.gg>img{
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+    .form>.fb>img{
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 220px;
+        margin-top: 50px;
+    }
+    .form>.thoat>a>img{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 0px;
+    }

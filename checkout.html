@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+        <link rel="stylesheet" href="./checkout.scss" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="" class="header__logo">
+                        <img src="./images/logo.svg" alt="" />
+                    </a>
+                    <nav class="main-menu">
+                        <ul class="main-menu__list">
+                            <li class="main-menu__item">
+                                <a href="./index.html" class="main-menu__link">Home</a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="./shop.html" class="main-menu__link">Shop</a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="" class="main-menu__link">About</a>
+                            </li>
+                            <li class="main-menu__item">
+                                <a href="" class="main-menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-items">
+                        <div class="header-item-user">
+                            <span>
+                                <a href="./taikhoan.html"><img src="./images/taikhoan.png" alt=""/></a>
+                            </span>
+                        </div>
+                        <div class="header-item-user">
+                            <span>
+                                <img src="./images/timkiem.png" alt=""/>
+                            </span>
+                        </div>
+                        <div class="header-item-user">
+                            <span>
+                                <img src="./images/yeuthich.png" alt=""/>
+                            </span>
+                        </div>
+                        <div class="header-item-user">
+                            <span>
+                                <a href="./cart.html"><img src="./images/giohang.png" alt=""/></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <img src="./images/Group 78 (2).png" alt="" class="banner__img" />
+        </section>
+        <section class="checkout">
+        <div class="container">
+            <div class="checkout-block">
+                <div class="bill">
+                    <h2 class="bill-heading">Billing details</h2>
+                    <form action="" class="form-bill">
+                        <div class="bill-full-name">
+                            <div class="bill-block">
+                                <p class="bill-block__name">First Name</p>
+                                <input type="text" class="bill-block-input">
+                            </div>
+                            <div class="bill-block">
+                                <p class="bill-block__name">Last Name</p>
+                                <input type="text" class="bill-block-input">
+                            </div>
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Company Name (Optional)</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Country / Region</span>
+                            <select name="" id="" class="bill-body__input">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Street address</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Town / City</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Province</span>
+                            <select name="" id="" class="bill-body__input">
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">ZIP code</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Phone</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <span class="bill-body__name">Email address</span>
+                            <input type="text" class="bill-body__input">
+                        </div>
+                        <div class="bill-body">
+                            <input type="text" class="bill-body__input" placeholder="Additional information">
+                        </div>
+                    </form>
+                </div>
+                <div class="bill-products">
+                    <div class="bill-products-heading">
+                        <div class="bill-products-heading__left">
+                            <p class="heading__left--title">Product</p>
+                            <p class="heading__left--text color">Asgaard sofa</p>
+                            <p class="heading__left--text">Subtotal</p>
+                            <p class="heading__left--text">Total</p>
+
+                        </div>
+                        <div class="bill-products-heading__right">
+                            <p class="heading__right--title">Subtotal</p>
+                            <p class="heading__right--text">25.000.000đ</p>
+                            <p class="heading__right--text">25.000.000đ</p>
+                            <p class="heading__right--text orange">250.00.000đ</p>
+                        </div>
+                    </div>
+                    <div class="bill-products-desc">
+
+                        <p class="desc__title">Direct Bank Transfer</p>
+                        <p class="desc__text--color">
+                            Make your payment directly into our bank account. Please use your Order ID as the payment
+                            reference.
+                            Your order will not be shipped until the funds have cleared in our account.
+                        </p>
+                        <div class="desc-check">
+                            <input class="desc__input" type="radio"> <span class="desc__input--color">Direct Bank
+                                Transfer</span>
+                        </div>
+                        <div class="desc-check">
+                            <input class="desc__input" type="radio"> <span class="desc__input--color">Cash On
+                                Delivery</span>
+                        </div>
+                        <div class="desc__text">Your personal data will be used to support your experience throughout
+                            this
+                            website,
+                            to manage access to your account, and for other purposes described in our <strong>privacy
+                                policy</strong>.
+                        </div>
+                        <button class="desc__btn">Place order</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+        <div class="box_services">
+            <div class="services_sup">
+                <div class="services_icon">
+                    <img src="./images/trophy 1.png" alt="">
+                </div>
+                <div class="support_text">
+                    <div class="services_text_heading">
+                        <h1>High Quality</h1>
+                    </div>
+                    <div class="services_text_desc">
+                        <p>crafted from top materials</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services_sup">
+                <div class="services_icon">
+                    <img src="./images/guarantee.png" alt="">
+                </div>
+                <div class="support_text">
+                    <div class="services_text_heading">
+                        <h1>Warranty Protection</h1>
+                    </div>
+                    <div class="services_text_desc">
+                        <p>Over 2 years</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services_sup">
+                <div class="services_icon">
+                    <img src="./images/shipping.png" alt="">
+                </div>
+                <div class="support_text">
+                    <div class="services_text_heading">
+                        <h1>Free Shipping</h1>
+                    </div>
+                    <div class="services_text_desc">
+                        <p>Order over 150 $</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services_sup">
+                <div class="services_icon">
+                    <img src="./images/customer-support.png" alt="">
+                </div>
+                <div class="services_text">
+                    <div class="services_text_heading">
+                        <h1>24 / 7 Support</h1>
+                    </div>
+                    <div class="services_text_desc">
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ===== end services ===== -->
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-top__logo">
+                        <h2 class="footer-top__logo--name">Funiro.</h2>
+                        <span class="footer-top__logo--text">400 University Drive Suite 200 Coral <br> Gables, <br>FL 33134
+                            USA</span>
+                    </div>
+                    <div class="footer-top__box">
+                        <div class="footer-top__box--row">
+                            <ul class="footer-top__box--col">
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link__color">Links</a>
+                                </li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Home</a>
+                                </li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Shop</a></li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">About</a></li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Contact</a></li>
+                            </ul>
+    
+                            <ul class="footer-top__box--col">
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link__color">Help</a>
+                                </li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Payment
+                                        Options</a>
+                                </li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Returns</a></li>
+                                <li class="footer-top__box--name"><a href="#" class="footer-top__box--link">Privacy
+                                        Policies</a>
+                                </li>
+    
+                            </ul>
+                            <ul class="footer-top__box--col">
+                                <li class="footer-top__box--name"><a href="#"
+                                        class="footer-top__box--link__color">Newsletter</a></li>
+                                <form action="">
+                                    <input type="text" class="footer-top__box--input"
+                                        placeholder=" Enter Your Email Address">
+                                    <button class="footer-top__box--btn">SUBSCRIBE</button>
+                                </form>
+    
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span class="footer-bottom--desc">2023 furino. All rights reverved</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
